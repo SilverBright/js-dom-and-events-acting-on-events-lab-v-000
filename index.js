@@ -18,10 +18,3 @@ function addNewElementAsLi() {
   return document.querySelector('.employee-list').append(`<li>${name}</li>`)
 }
 
-function addNewLiOnClick() {
-  let input = document.querySelector('input[type="submit"]')
-  input.addEventListener('click', function(event) {
-    addNewElementAsLi()
-    input = ""
-  })
-}
