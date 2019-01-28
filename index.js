@@ -13,5 +13,4 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi() {
-  return document.querySelector('ul').innerHTML
-}
+  return document.querySelector('.employee-list').innerHTML
