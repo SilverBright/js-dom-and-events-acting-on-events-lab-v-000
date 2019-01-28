@@ -25,3 +25,5 @@ function addNewLiOnClick() {
     input.value = ""
   })
 }
+
+function 
