@@ -19,5 +19,6 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
+  let value = document.querySelector('input[type="submit"]')
   
 }
