@@ -11,3 +11,5 @@ const input = document.querySelector('input')
 function retrieveEmployeeInformation() {
   return document.querySelector('input').value
 }
+
+function 
